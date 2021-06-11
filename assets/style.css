@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body
+{
+	overflow-x: hidden;
+	font-family: 'Poppins', sans-serif;
+}
+section
+{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding: 70px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #2b2b45;
+}
+header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 8px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 14px;
+}
+header .logo
+{
+	position: absolute;
+	max-width: 135px;
+	top: 0;
+}
+header ul
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header ul li
+{
+	list-style: none;
+	display: flex;
+	margin-left: 40px;
+}
+header ul li a
+{
+	display: inline-block;
+	color: #f9fafc;
+	text-decoration: none;
+	font-weight: 500;
+}
+header ul li a:hover
+{
+	border-bottom: 1px solid #888fe8;
+	font-weight: bold;
+	text-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+header .login a
+{
+	color: #f9fafc;
+	text-decoration: none;
+	font-weight: 500;
+	background: #888fe8;
+	border-radius: 25px;
+	padding: 10px 20px;
+}
+header .login a:hover
+{
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.content
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content .textBox
+{
+	position: relative;
+	max-width: 600px;
+	margin-right: 10px;
+	margin-top: 110px;
+}
+.content .textBox img
+{
+	max-width: 290px;
+	margin-bottom: 20px;
+}
+.content .textBox p
+{
+	color: #868797;
+	font-size: 1.1em;
+}
+.content .textBox a
+{
+	display: inline-block;
+	margin: 35px 35px 0px 0px;
+	padding: 15px 50px;
+	color: #f9fafc;
+	border-radius: 25px;
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-decoration: none;
+	width: 200px;
+	text-align: center;
+}
+.content .textBox .trial a
+{
+	border: 1px solid #f9fafc;
+}
+.content .textBox .trial a:hover
+{
+	background: #888fe8;
+	border: 0px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.content .textBox .buy a
+{
+	background: #888fe8;
+}
+.content .textBox .buy a:hover
+{
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.content .imgBox
+{
+	position: relative;
+	width: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content .imgBox img
+{
+	position: relative;
+	max-width: 500px;
+	margin-left: 120px;
+}
+.content .imgBox img:hover
+{
+	animation-name: zoom;
+    animation-duration: 20s;
+}
+@keyframes zoom
+{
+    1%
+    {
+    	opacity: 1; max-width: 520px;
+    }
+}
+#perks
+{
+	text-align: center;
+	color: #23272a;
+}
+#perks h1
+{
+	font-family: 'Kanit', sans-serif;
+	margin: 90px 60px 15px;
+	font-size: 2.5em;
+	line-height: 35px;
+}
+.action
+{
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin: 40px 80px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	grid-gap: 20px;
+}
+.action .card
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 2px solid #888fe8;
+	border-radius: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	min-width: 300px;
+	max-width: 300px;
+	line-height: 40px;
+	background: #fbfcf8;
+}
+.action .card:hover
+{
+	animation-name: slide;
+    animation-duration: 50s;
+    cursor: pointer;
+}
+@keyframes slide
+{
+    1%
+    {
+    	opacity: 1; margin-top: 0;
+    }
+}
+.action .card .baris 
+{
+	display: flex;
+	justify-content: space-between;
+}
+.action .card .title
+{
+	background: #888fe8;
+	color: #f9fafc;
+}
+.action .card h2
+{
+	font-size: 1.2em;
+	width: 120px;
+	text-align: center;
+	border-radius: 0px 5px 0px 5px;
+}
+.action .card ul
+{
+	padding: 20px 60px;
+	color: #888fe8;
+}
+.action .card .list
+{
+	color: #23272a;
+}
+.action .card h4
+{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+	background: #2b2b45;
+	border-radius: 25px;
+	width: 150px;
+	color: #f9fafc;
+}
+.action .card h4:hover
+{
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+footer
+{
+	background: #2b2b45;
+	width: 100%;
+	padding: 8px 20px;
+	margin-top: 120px;
+}
+footer .inline 
+{
+	justify-content: space-between;
+	display: flex;
+}
+footer .logo
+{
+	width: 125px;
+	margin: 25px;
+	cursor: pointer;
+}
+footer .button
+{
+	background: #888fe8;
+	border-radius: 25px;
+	text-align: center;
+	color: #f9fafc;
+	padding: 10px 20px;
+	font-weight: 500;
+}
+footer .button:hover
+{
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 1000px)
+{
+	section
+	{
+		padding: 180px 20px;
+	}
+	header
+	{
+		padding: 20px;
+	}
+	.content
+	{
+		flex-direction: column-reverse;
+		margin-left: 10px;
+		text-align: center;
+	}
+	.content .textBox,
+	.content .imgBox,
+	{
+		max-width: 100%;
+		margin-right: 0px;
+	}
+	.content .textBox img
+	{
+		max-width: 300px;
+	}
+	.content .textBox p
+	{
+		font-size: 1em;
+	}
+	.content .textBox .button
+	{
+		margin-left: 30px;
+	}
+	.content .imgBox img
+	{
+		max-width: 280px;
+		margin-top: 140px;
+		margin-left: 200px;
+		padding: 20px;
+		position: absolute;
+	}
+	@keyframes zoom
+	{
+    	1%
+    	{
+    		opacity: 1; max-width: 290px;
+    	}
+	}
+	.navigation
+	{
+		display: none;
+	}
+	.navigation.active
+	{
+		display: flex;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		justify-content: center;
+		align-items: center;
+		background: #2b2b45;
+		flex-direction: column;
+	}
+	header ul li
+	{
+		margin: 10px 0;
+		margin-left: 0;
+	}
+	header ul li a
+	{
+		display: inline-block;
+		color: #f9fafc;
+		text-decoration: none;
+		font-size: 1.5em;
+		font-weight: 300;
+	}
+	header .login
+	{
+		display: inline-flex;
+	}
+	header .login .toggle
+	{
+		margin-left: 20px;
+	}
+	.toggle
+	{
+		position: relative;
+		width: 30px;
+		height: 30px;
+		background: url(menu.png);	
+		background-size: 30px;
+		background-position: center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		z-index: 1;
+	}
+	.toggle:hover
+	{
+		text-shadow: 0 0 4px #888fe8, 0 0 8px #888fe8;
+	}
+	.toggle.active
+	{
+		background: url(close.png);
+		background-size: 25px;
+		background-position: center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		z-index: 1;
+	}
+	.slide 
+	{
+		z-index: 1;
+	}
+	.slide ul li a
+	{
+		padding: 10px 20px;
+		color: #f9fafc;	
+	}
+	.slide ul li a:hover
+	{
+		border-bottom: 1px solid #888fe8;
+		font-weight: bold;
+	}
+	#perks h1
+	{
+		font-size: 1.9em;
+	}
+	.action
+	{
+		position: relative;
+	}
+	.card 
+	{
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 700px)
+{
+	#perks h1
+	{
+		font-size: 1.5em;
+	}
+}
