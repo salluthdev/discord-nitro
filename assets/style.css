@@ -108,7 +108,7 @@ header .login a:hover
 .content .textBox a
 {
 	display: inline-block;
-	margin: 35px 35px 0px 0px;
+	margin: 25px 25px 0px 25px;
 	padding: 15px 50px;
 	color: #f9fafc;
 	border-radius: 25px;
@@ -266,9 +266,12 @@ footer .inline
 }
 footer .logo
 {
-	width: 125px;
 	margin: 25px;
 	cursor: pointer;
+}
+footer .bottom 
+{
+	width: 120px;
 }
 footer .button
 {
@@ -303,7 +306,6 @@ footer .button:hover
 	.content .imgBox,
 	{
 		max-width: 100%;
-		margin-right: 0px;
 	}
 	.content .textBox img
 	{
@@ -313,24 +315,13 @@ footer .button:hover
 	{
 		font-size: 1em;
 	}
-	.content .textBox .button
-	{
-		margin-left: 30px;
-	}
 	.content .imgBox img
 	{
-		max-width: 280px;
-		margin-top: 140px;
-		margin-left: 200px;
-		padding: 20px;
+		width: 180px;
+		margin-top: 180px;
+		margin-left: 170px;
+		padding: 0px;
 		position: absolute;
-	}
-	@keyframes zoom
-	{
-    	1%
-    	{
-    		opacity: 1; max-width: 290px;
-    	}
 	}
 	.navigation
 	{
@@ -428,4 +419,17 @@ footer .button:hover
 	{
 		font-size: 1.5em;
 	}
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
 }
