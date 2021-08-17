@@ -160,7 +160,7 @@ header .login a:hover
 {
     1%
     {
-    	opacity: 1; max-width: 520px;
+    	max-width: 520px;
     }
 }
 #perks
