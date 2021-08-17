@@ -6,11 +6,11 @@
 	padding: 0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
+	font-family: 'Poppins', sans-serif;
 }
 body
 {
 	overflow-x: hidden;
-	font-family: 'Poppins', sans-serif;
 }
 section
 {
@@ -201,8 +201,8 @@ header .login a:hover
 .action .card:hover
 {
 	animation-name: slide;
-    animation-duration: 50s;
-    cursor: pointer;
+  animation-duration: 50s;
+  cursor: pointer;
 }
 @keyframes slide
 {
@@ -286,6 +286,7 @@ footer .button:hover
 {
 	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 8px 20px rgba(0, 0, 0, 0.2);
 }
+
 @media (max-width: 1000px)
 {
 	section
@@ -413,6 +414,7 @@ footer .button:hover
 		margin-bottom: 20px;
 	}
 }
+
 @media (max-width: 700px)
 {
 	#perks h1
@@ -420,6 +422,7 @@ footer .button:hover
 		font-size: 1.5em;
 	}
 }
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
