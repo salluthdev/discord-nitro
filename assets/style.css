@@ -154,14 +154,14 @@ header .login a:hover
 .content .imgBox img:hover
 {
 	animation-name: zoom;
-    animation-duration: 20s;
+  animation-duration: 20s;
 }
 @keyframes zoom
 {
-    1%
-    {
-    	max-width: 520px;
-    }
+  1%
+  {
+    max-width: 520px;
+  }
 }
 #perks
 {
