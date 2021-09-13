@@ -5,9 +5,9 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	scroll-behavior: ;
+	scroll-behavior: smooth;
 	font-family: 'Poppins', sans-serif;
-	transition: 0.5s !important;
+	transition: 0.5s;
 }
 body
 {
