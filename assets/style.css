@@ -368,7 +368,7 @@ footer .button:hover
 		position: relative;
 		width: 30px;
 		height: 30px;
-		background: url(menu.png);	
+		background: url(img/menu.png);	
 		background-size: 30px;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -381,7 +381,7 @@ footer .button:hover
 	}
 	.toggle.active
 	{
-		background: url(close.png);
+		background: url(img/close.png);
 		background-size: 25px;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -435,5 +435,4 @@ only screen and (min-device-pixel-ratio: 1.5){
     width:100%;
     overflow-x:hidden;
   }
-
 }
