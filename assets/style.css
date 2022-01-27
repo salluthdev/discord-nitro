@@ -6,11 +6,10 @@
 	padding: 0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
-	font-family: 'Poppins', sans-serif;
-	transition: 0.5s;
 }
 body
 {
+	font-family: 'Poppins', sans-serif;
 	overflow-x: hidden;
 }
 section
@@ -76,6 +75,10 @@ header .login a
 	background: #888fe8;
 	border-radius: 25px;
 	padding: 10px 20px;
+}
+a
+{
+	transition: 0.2s;
 }
 header .login a:hover
 {
@@ -207,10 +210,10 @@ header .login a:hover
 }
 @keyframes slide
 {
-    1%
-    {
-    	opacity: 1; margin-top: 0;
-    }
+  1%
+  {
+  	opacity: 1; margin-top: 0;
+  }
 }
 .action .card .baris 
 {
