@@ -109,10 +109,16 @@ header .login a:hover
 	color: #868797;
 	font-size: 1.1em;
 }
-.content .textBox a
+.content .textBox .button
+{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+	margin-top: 25px;
+}
+.content .textBox .button a
 {
 	display: inline-block;
-	margin: 25px 25px 0px 25px;
 	padding: 15px 50px;
 	color: #f9fafc;
 	border-radius: 25px;
@@ -123,21 +129,21 @@ header .login a:hover
 	width: 200px;
 	text-align: center;
 }
-.content .textBox .trial a
+.content .textBox .button .trial a
 {
 	border: 1px solid #f9fafc;
 }
-.content .textBox .trial a:hover
+.content .textBox .button .trial a:hover
 {
 	background: #888fe8;
 	border: 0px;
 	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 8px 20px rgba(0, 0, 0, 0.2);
 }
-.content .textBox .buy a
+.content .textBox .button .buy a
 {
 	background: #888fe8;
 }
-.content .textBox .buy a:hover
+.content .textBox .button .buy a:hover
 {
 	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 8px 20px rgba(0, 0, 0, 0.2);
 }
@@ -319,6 +325,10 @@ footer .button:hover
 	.content .textBox p
 	{
 		font-size: 1em;
+	}
+	.content .textBox .button
+	{
+		justify-content: center;
 	}
 	.content .imgBox img
 	{
