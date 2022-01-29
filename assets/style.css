@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap');
 *
 {
@@ -362,9 +362,6 @@ footer .button:hover
 	}
 	header ul li a
 	{
-		display: inline-block;
-		color: #f9fafc;
-		text-decoration: none;
 		font-size: 1.5em;
 		font-weight: 300;
 	}
